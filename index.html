@@ -30,7 +30,7 @@
         <script>
         jQuery('document').ready(function() {
             $('#click-me').click(function() {
-                ga('send', 'event', { 'hitCallback': function() { console.log('ga sent'); }});
+                ga('send', 'event', 'button', 'click', 'click-me');
             });
         });
         </script>
